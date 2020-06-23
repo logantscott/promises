@@ -1,5 +1,5 @@
 const fsPromises = require('fs').promises;
-const { writeFile, readFile, copy, exists } = require('./lib/copyFile');
+const { writeFile, readFile, copy, exists } = require('./lib/fileFunctions');
 
 // writeFile('./files/secondFile.txt', 'this is a test function for write');
 // readFile('./files/secondFile.txt');
